@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+
+<body class="body start">
+    <div class="nav">
+        <div class="questionNo">Question <span id="qN">1</span>/5</div>
+        <div class="timer">00:<span id="time">30</span></div>
+    </div>
+    <div class="container">
+        <div class="line"><div class="line2"></div></div>
+        <div class="content">
+            <div class="question">OS computer abbreviation usually means?</div>
+            <div class="options">
+                <div><button id="option1" class="option">Order of Significance</button></div>
+                <div><button id="option2" class="option">Open software</button></div>
+                <div><button id="option3" class="option">Operating System</button></div>
+                <div><button id="option4" class="option">Optical Sensor</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="startQuiz">
+        <h1>Welcome to Quiz App</h1>
+        <div class="button" onclick="Start()">
+        <button>Start Quiz</button>
+        </div>
+    </div>
+    <div class="endQuiz">
+        <h1>Your Score: <span class="score"></span></h1>
+        <div class="button" onclick="Start()">
+            <button>Restart Quiz</button>
+        </div>
+    </div>
+</body>
+
+</html>
